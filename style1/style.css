@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.heading {
+    /* background-color: grey; */
+    color: aliceblue;
+    box-sizing: border-box;
+    background-image: url(../5-akr07149.jpg);
+    width:100%;
+    height:450px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items:center; */
+    box-sizing: border-box;
+}
+
+.heading h1 {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#nav-bar {
+    color: white;
+    /* background-color: black; */
+    box-sizing: border-box;
+    padding-left: 1050px;
+}
+
+#nav-bar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li {
+    display:inline
+}
+
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
