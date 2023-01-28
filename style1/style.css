@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 body {
     background-color: black;
     color: white;
@@ -18,26 +20,38 @@ body {
     /* background-color: grey; */
     color: aliceblue;
     box-sizing: border-box;
-    background-image: url(../5-akr07149.jpg);
+    background-image: url(../copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: 12px -40px;
+    
     width:100%;
-    height:450px;
+    height:400px;
     /* display: flex;
     justify-content: space-between;
     align-items:center; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .heading h1 {
-    padding-left: 40px;
+    padding-left: 1005px;
     padding-top: 30px;
     font-size: 40px;
+    font-family: 'Inconsolata';
 }
 
+/* .heading h2 {
+    /* padding-left: 40px;
+    padding-top: 125px;
+    padding-bottom: 0px; 
+    font-size: 35px;
+    font-family: 'Inconsolata';
+} */
+
 #nav-bar {
-    color: white;
-    /* background-color: black; */
+    background-color: black;
     box-sizing: border-box;
-    padding-left: 1050px;
+    padding-left: 40px;
 }
 
 #nav-bar ul {
@@ -57,4 +71,33 @@ body {
     font-weight: 600;
     text-align: center;
 }
+
+.line-1{
+    position: relative;
+    top: 30%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 19.2em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
 
