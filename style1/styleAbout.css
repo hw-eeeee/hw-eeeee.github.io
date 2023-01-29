@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inconsolata';
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    /* margin-top: 0; */
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 0px;
+}
+
+
+
+#nav-bar {
+    background-color: rgb(0, 0, 0, 1);
+    
+    box-sizing: border-box;
+    padding-left: 40px;
+    position: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#nav-bar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li {
+    display:inline
+}
+
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.fix-me {
+    position: fixed;
+    /* top:400px; */
+
+}
+
+
+.About{
+    box-sizing: border-box;
+    background-image: url(../PXL_20221204_091857855.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: 70px -60px;
+    
+    width:100%;
+    height:80vh;
+
+}
+
+.line-1{
+    position: relative;
+    top: 55%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 35px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+
+}
+
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 4em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .About-box{
+    padding-top: 20px;
+  }
+  
