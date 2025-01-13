@@ -26,7 +26,7 @@ function Navbar() {
             Contact
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/projects" activeClassName="active">
             Projects
           </NavLink>
@@ -35,7 +35,7 @@ function Navbar() {
           <NavLink to="/blogs" activeClassName="active">
             Blogs
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
