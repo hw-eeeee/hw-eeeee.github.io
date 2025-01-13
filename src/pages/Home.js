@@ -1,9 +1,28 @@
+import './Home.css';
+import image from '../../src/assets/c08806217c486e6917857226675c356b.jpg';
+import { Typewriter } from 'react-simple-typewriter';
+import FadeIn from 'react-fade-in';
+
 function Home() {
   return (
-    <div>
-      <h1>Hello, My name is Hui</h1>
-      <h1>It&apos;s nice to meet you :))</h1>
-    </div>
+    <FadeIn className="page-fade" transitionDuration={2000}>
+      <div className="page-style">
+        <img src={image} alt="mouse image" className="front-image" />
+        <div className="heading-style">
+          <div>
+            Hello, My name is <span className="underline">Hui</span>
+          </div>
+          <div className="typewriter">
+            <Typewriter
+              words={["It's nice to meet you :))"]}
+              loop={1}
+              cursor={false}
+              typeSpeed={70}
+            />
+          </div>
+        </div>
+      </div>
+    </FadeIn>
   );
 }
 

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #80619e;
+  padding: 0.5% 1.8%;
+}
+
+.navbar-logo {
+  font-size: 1em;
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end; 
+  list-style: none;
+  gap: 15%;
+  margin: 0;
+}
+
+.navbar-links li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.navbar-links li a::after {
+  content: ''; 
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  bottom: -6px; 
+  width: 0;
+  height: 2px; 
+  background-color: #ffffff; 
+  transition: width 0.3s ease; 
+}
+
+.navbar-links li a:hover {
+  color: #000000; 
+  transform: scale(1.1);
+}
+
+.navbar-links li a:hover::after {
+  background-color: #000000; 
+}
+
+.navbar-links li a.active::after {
+  width: 100%; 
+}

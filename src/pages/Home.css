@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.page-style {
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #80619e;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 3.5em;
+    line-height: 1.75em;
+    padding:  0% 1.8%;
+
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 4%;
+    text-underline-offset: 15%; 
+    color: #80619e;
+}
+
+.typewriter span::after {
+    content: '|';
+    animation: blink 1.2s steps(2, start) infinite; 
+  }
+  
+  @keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+.front-image {
+    display: flex;
+    align-items: center;
+}
+
+
