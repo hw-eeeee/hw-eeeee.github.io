@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './BlinkingArrow.css';
 
-const BlinkingArrow = ({ onClick, color = '#80619e', size = '6rem' }) => {
+const BlinkingArrow = ({ onClick, color = '#466046', size = '6rem' }) => {
   return (
     <div className="blinking-arrow-container">
       <button
@@ -23,9 +23,8 @@ BlinkingArrow.propTypes = {
   size: PropTypes.string, // Optional string for size
 };
 
-// Default props
 BlinkingArrow.defaultProps = {
-  color: '#80619e',
+  color: '#466046',
   size: '6rem',
 };
 

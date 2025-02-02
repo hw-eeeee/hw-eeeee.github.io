@@ -1,6 +1,6 @@
 .blinking-arrow-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 1%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     font-size: 6rem; 
     transform: scaleY(0.88);
     animation: blink 5s infinite;
-    color: #80619e;
+    color: #466046;
 }
 
 @keyframes blink {
@@ -30,5 +30,15 @@
     }
     50% {
         opacity: 0.2;
+    }
+}
+
+
+@media (max-height: 600px){
+    .blinking-arrow-container {
+        bottom: 0.5%;
+    }
+    .blinking-arrow svg {
+        font-size: 4rem; 
     }
 }

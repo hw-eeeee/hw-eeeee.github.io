@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
-import image from '../../src/assets/c08806217c486e6917857226675c356b.jpg';
-import BlinkingArrow from '../components/BlinkingArrow/BlinkingArrow';
+import AboutMe from './AboutMe';
+import Contact from './Contact';
+import image from '../../src/assets/panda-6258.gif';
 import { Typewriter } from 'react-simple-typewriter';
 import FadeIn from 'react-fade-in';
+import BlinkingArrow from '../components/BlinkingArrow/BlinkingArrow';
 
 function Home() {
   const [showArrow, setShowArrow] = useState(false);
@@ -35,7 +37,7 @@ function Home() {
     <>
       <FadeIn className="page-fade" transitionDuration={2000}>
         <div id="home" className="page-style">
-          <img src={image} alt="mouse image" className="front-image" />
+          <img src={image} alt="panda gif" className="front-image" />
           <div className="heading-style">
             <div>
               Hello, My name is <span className="underline">Hui</span>
@@ -53,27 +55,15 @@ function Home() {
           {showArrow && (
             <BlinkingArrow
               onClick={handleArrowClickAbout}
-              color="#80619e"
+              color="#466046"
               size="6rem"
             />
           )}
         </div>
       </FadeIn>
 
-      <div id="about-me" className="about-me-section">
-        <h2>About Me</h2>
-        <p>This is the About Me section of the page.</p>
-        <BlinkingArrow
-          onClick={handleArrowClickContact}
-          color="#80619e"
-          size="6rem"
-        />
-      </div>
-
-      <div id="contact" className="contact-section">
-        <h2>Contact Me</h2>
-        <p>This is the Contact section of the page.</p>
-      </div>
+      <AboutMe onArrowClick={handleArrowClickContact} />
+      <Contact />
     </>
   );
 }
