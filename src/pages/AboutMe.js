@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import './AboutMe.css';
-import BlinkingArrow from '../components/BlinkingArrow/BlinkingArrow';
+// import BlinkingArrow from '../components/BlinkingArrow/BlinkingArrow';
 import headshot from '../assets/Screenshot 2025-02-02 at 10.38.38 PM.png';
 
-const AboutMe = ({ onArrowClick }) => {
+const AboutMe = () => {
   return (
     <div id="about-me" className="about-me-section">
       <div className="left-side">
@@ -68,8 +68,6 @@ const AboutMe = ({ onArrowClick }) => {
           </li>
         </ul>
       </div>
-
-      <BlinkingArrow onClick={onArrowClick} color="#466046" size="6rem" />
     </div>
   );
 };
