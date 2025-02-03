@@ -1,5 +1,5 @@
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../assets/icons8-logo-48.png';
+import logo from '../../assets/m.png';
 import TemporaryDrawer from '../Drawer/TemporaryDrawer';
 import { List, ListItem } from '@mui/material';
 import './Navbar.css';

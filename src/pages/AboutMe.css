@@ -78,16 +78,7 @@
     text-align: left; /* Ensure left alignment for text */
   }
 
-  /* @media (max-height: 700px) { 
-    .about-me-section {
-      height: 190vh;
-    }
-  }
-  @media (max-height: 500px) { 
-    .about-me-section {
-      height: 250vh;
-    }
-  } */
+
 
 /* For very large screens */
 @media (min-width: 1800px) { 
@@ -224,3 +215,20 @@
   }
 
 }
+
+  @media (max-height: 700px) { 
+    .about-me-section {
+      height: 190vh;
+    }
+  }
+  @media (max-height: 500px) { 
+    .about-me-section {
+      height: 250vh;
+    }
+  }
+
+  @media (max-height: 300px) { 
+    .about-me-section {
+      height: 300vh;
+    }
+  }

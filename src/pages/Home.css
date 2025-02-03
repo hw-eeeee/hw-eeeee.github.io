@@ -105,4 +105,16 @@
     height: auto;
   }
 }
+
+@media (max-height: 500px) { 
+  .page-style {
+    height: 120vh;
+  }
+}
+
+  @media (max-height: 300px) { 
+    .page-style {
+      height: 150vh;
+    }
+  }
   
