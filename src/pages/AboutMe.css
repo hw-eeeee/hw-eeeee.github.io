@@ -215,17 +215,17 @@
   }
 }
 
-@media (max-width: 370px) { 
+@media (max-width: 376px) { 
   .about-me-section {
       flex-direction: column;
-      height: 145vh;
+      height: 155vh;
 
   }
 }
 
-  @media (max-height: 500px) { 
+  @media (max-height: 542px) { 
     .about-me-section {
-      height: 150vh;
+      height: 170vh;
     }
   }
   @media (max-height: 400px) { 
