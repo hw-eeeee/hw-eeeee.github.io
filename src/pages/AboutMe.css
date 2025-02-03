@@ -180,7 +180,7 @@
 @media (max-width: 700px) { 
   .about-me-section {
       flex-direction: column;
-      height: 130vh;
+      height: 145vh;
 
   }
 
