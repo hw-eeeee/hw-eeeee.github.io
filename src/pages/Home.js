@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
 import AboutMe from './AboutMe';
-import Contact from './Contact';
+// import Contact from './Contact';
 import image from '../../src/assets/panda-6258.gif';
 import { Typewriter } from 'react-simple-typewriter';
 import FadeIn from 'react-fade-in';
@@ -63,7 +63,7 @@ function Home() {
       </FadeIn>
 
       <AboutMe onArrowClick={handleArrowClickContact} />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

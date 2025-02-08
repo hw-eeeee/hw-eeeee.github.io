@@ -20,11 +20,11 @@ function Navbar() {
           About
         </HashLink>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <HashLink smooth to="/#contact" className={'drawer-link'}>
           Contact
         </HashLink>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 
@@ -53,11 +53,11 @@ function Navbar() {
               About
             </HashLink>
           </li>
-          <li>
+          {/* <li>
             <HashLink smooth to="/#contact" className={'navbar-link'}>
               Contact
             </HashLink>
-          </li>
+          </li> */}
         </ul>
       )}
     </nav>
