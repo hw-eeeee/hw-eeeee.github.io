@@ -1,0 +1,43 @@
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #466046 !important;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-color: #466046 !important; 
+  }
+
+  
+  .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #466046 !important;
+  }
+  
+
+.contact-form {
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 85%;
+    gap: 3.8%;
+}
+
+
+.form-button {
+    font-family: 'Instrument Sans', sans-serif !important;
+    font-weight: 500 !important;
+}
+  
+
+
+.fields {
+
+}
+
+
